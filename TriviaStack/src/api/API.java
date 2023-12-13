@@ -18,7 +18,7 @@ public class API {
 	// Storage variables
 	public static String difficulty = "easy"; // easy, medium, hard
 	public static int category = 9; 
-	public static int numOfQuestions = 1; // 1-50
+	public static int numOfQuestions = 5; // 1-50
 	public static JSONObject obj;
 
 	// Url Base
@@ -116,10 +116,10 @@ public class API {
         Questions.question();
         Answers.correctAnswers();
         Answers.incorrectAnswers();
-        //FixString.fixQuestions();
-        //FixString.fixCorrectAnswers();
+        FixString.fixQuestions();
+        FixString.fixCorrectAnswers();
         MultipleChoice.options();
-        //FixString.fixAnswers();
+        FixString.fixAnswers();
     }
 	
 	public static void main(String[] args) {

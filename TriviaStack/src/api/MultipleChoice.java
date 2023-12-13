@@ -27,7 +27,7 @@ public class MultipleChoice extends Answers {
 		num = ONE;
 		reduce(temp, temp.length, num);
 		key = "\"";
-		//Removing the quotations from the incorrect anwsers
+		// Removing the quotations from the incorrect anwsers
 		find(temp, index, key);
 		int i = 0;
 		int j = 0;
@@ -47,10 +47,7 @@ public class MultipleChoice extends Answers {
 			j += 4;
 			i++;
 		} while (j < answerArray.length);
-		for (i = 0; i < answerArray.length; i++) {
-			System.out.println(answerArray[i]);
-		}
-		
+
 		return answerArray;
 	}
 }

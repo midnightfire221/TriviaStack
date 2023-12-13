@@ -1,8 +1,7 @@
 package api;
 
 /**
- * This class separates the questions from the query
- * Updated 11-25-23
+ * This class separates the questions from the query Updated 11-25-23
  *
  * @author Sengthida Lorvan
  */
@@ -48,9 +47,6 @@ public class Questions extends API {
 
 		} catch (Exception _ex) {
 			System.out.println("Error: " + _ex);
-		}
-		for (int i = 0; i < numOfQuestions; i++) {
-			System.out.println(questionArray[i]);
 		}
 		return questionArray;
 	}
