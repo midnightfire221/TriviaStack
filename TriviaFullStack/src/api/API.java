@@ -1,3 +1,5 @@
+package api;
+
 import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -121,7 +123,6 @@ public class API {
     }
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		makeApiCall();
 		run();
 	}
